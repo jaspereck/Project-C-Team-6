@@ -1,13 +1,3 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-body {
-
-}
-
 /*start of header*/
 .img{
     float: left;
@@ -24,6 +14,11 @@ body {
     float: right;
     padding-top: 16px;
     margin-right: 60px;
+}
+
+.dif-header{
+	background-color: #33cc33;
+    height: 62px;
 }
 
 .prosearch{
@@ -64,14 +59,13 @@ body {
     text-decoration: none;
 }
 
-header{
+.start-header{
     height: 330px;
     background-image: url(OIP.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 20px;
 }
-/*End of Header*/
 
 .slider-text{
     display: block;
@@ -96,15 +90,23 @@ header{
     font-size: 25px;
 
 }
+/*End of Header*/
+/*start of body*/
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 
-/*
-button:hover {
+
+
+/*voorbeeldcode
+a:hover {
     background: #338033;
     cursor: pointer;
 }
 
 button:hover:{
-    transform: translateX(300px) skewX(-15deg);
     opacity: .6;
     transition: .7s;
 }*/
